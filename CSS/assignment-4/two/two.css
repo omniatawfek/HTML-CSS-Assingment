@@ -1,0 +1,16 @@
+div {
+   width:fit-content ;
+    max-width: 400px;
+    background-color: brown;
+    color: aliceblue;
+    
+    padding: 10px;
+    margin: 10px 5px;
+    height:30px;
+    
+}
+.overflow {
+   
+    overflow: hidden; 
+    border:1px solid white;
+}

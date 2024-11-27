@@ -1,0 +1,14 @@
+a {
+    text-align:center;
+    padding: 30px 50px;
+    margin: auto;
+    text-decoration: none;
+   color: aliceblue;
+   background-color: darkcyan;
+   text-transform: capitalize;
+   display: block;
+   width: fit-content;
+   font-size: 80px;
+   border-bottom: 15px solid darkslategray;
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
