@@ -1,0 +1,38 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+.parent {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+    text-align: center;
+}
+.container {
+    background-color: #eee;
+   width: 100%;
+   padding: 15px;
+   margin: 20px;
+}
+.bold {
+    font-weight: bold;
+}
+@media (min-width:768px) {
+ .bold {
+    color: red;
+}
+.container {
+    width: calc(50% - 40px);
+}
+}
+@media(min-width:992px) {
+    .bold {
+        color: rgb(29, 173, 168);
+    }
+    .container {
+        width: calc(25% - 40px);
+    }
+}
