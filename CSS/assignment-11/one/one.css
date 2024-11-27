@@ -1,0 +1,32 @@
+
+.parent {
+    background-color: #eee;
+    width: 500px;
+    height: 200px;
+    margin:50px auto;
+  transition: transform .5s;
+
+
+}
+.top {
+    text-align: center;
+    font-weight: bold;
+    padding: 20px;
+}
+
+.bottom {
+    background-color: #bbb9b9;
+    text-align: center;
+    font-weight: bold;
+    padding: 20px;
+    transition: transform 0 .5s
+  
+}
+.parent:hover {
+    transform: translateY(-20px);
+   .bottom{
+    transform: translateY(20px);
+   } 
+
+}
+ 

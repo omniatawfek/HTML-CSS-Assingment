@@ -1,0 +1,30 @@
+div {
+    font-size: 20px !important ;
+    background-color:#eee !important ;
+    color:black !important ;
+     font-weight: bold;
+     border: none !important;
+      width: 400px;
+    margin: auto;
+    text-align: center;
+ z-index: -1;
+ position: relative;
+
+}
+div::after {
+    content: "Elzero" ;
+   position: absolute;
+   top: 0;
+   left: 10px;
+   z-index: 5;
+   line-height: 40px;
+   font-size: 20px ;
+   font-weight: bold;
+   padding: 10px;
+   height: fit-content;
+   background-color:#eee;
+   color:black;
+   width: 400px;
+   margin: auto;
+  
+}

@@ -1,0 +1,38 @@
+
+.list {
+    width: 400px;
+    margin: auto;
+    padding: 20px;
+    background-color: white;
+    list-style: none;
+}
+ul li {
+    margin: 10px;
+    padding: 10px;
+    background-color: #eee;
+}
+.one {
+    list-style-type: decimal;
+}
+.two {
+    
+    list-style-type: upper-roman;
+}
+.three {
+   
+    list-style-position: inside;
+}
+ul li ul li ,
+ul li ol li {
+    padding: 5px;
+    margin: 5px;
+    background-color: white;
+}
+ul li ul {
+    padding: 5px;
+    margin: 5px 5px;
+}
+ul li ol {
+ padding: 5px;
+ margin: 5px 20px;
+}

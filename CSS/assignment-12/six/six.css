@@ -1,0 +1,94 @@
+:root {
+    --bcolor : #c1c0c0;
+    --color:black;
+   
+}
+
+.page {
+    width: 100%;
+    height: 400px;
+    background-color: #eee;
+    display:flex ;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+.header {
+width: 100%;
+height: 18%;
+display: flex;
+
+flex-direction: row ;
+align-items: center;
+justify-content: space-between;
+
+}
+.logo {
+    background-color: var(--bcolor);
+    color: var(--color);
+    width: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 15px;
+}
+li {
+   width: 11%;
+}
+.links {
+    background-color: var(--bcolor);
+    color: var(--color);
+    
+    display: flex;
+    flex-direction: row;
+    width: 80%;
+    list-style: none;
+    justify-content: flex-end;
+    padding: 15px;
+    
+}
+.main-area {
+  
+ width: 100%;
+ height: 60%;
+ display: flex;
+ flex-direction: row;
+ justify-content: space-between;
+ align-items: center;
+ margin-bottom: 10px;
+}
+.content {
+    background-color: var(--bcolor);
+    color: var(--color);
+   display: flex; 
+   flex-direction: column;
+   width: 70%;
+   height: 70%;
+   text-indent: 20px;
+}
+.sidebar {
+    background-color: var(--bcolor);
+    color: var(--color);
+   display: flex;
+   flex-direction: column;
+   width: 25%;
+   height: 70%;
+   text-indent: 20px;
+}
+.footer {
+    background-color: var(--bcolor);
+    width: 100%;
+    height: 18%;
+    display: flex;
+   flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+} 
+.copyright {
+   
+  text-indent: 10px;
+}
+.design {
+   
+  text-indent: -150px;
+ 
+}

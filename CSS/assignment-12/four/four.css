@@ -1,0 +1,29 @@
+.parent {
+    width: 600px;
+    height: 300px;
+    background-color: #eee;
+    margin: 2px auto;
+    padding: 5px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-content: space-between;
+}
+.parent div {
+    background-color: rgb(16, 126, 106);
+    color:white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 600px;
+    height: 70px;
+}
+.one ,
+.three
+{
+margin-left: 580px;
+
+}
+.two {
+    margin-right: 300px;
+}

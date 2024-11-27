@@ -1,0 +1,42 @@
+caption {
+   font-weight: bold;
+   padding: 10px;
+}
+img {
+    width: 50px;
+    position: absolute;
+    left: 15px;
+    top: 15px;
+   
+}
+thead {
+    background-color: rgb(60, 60, 60);
+    color: white;
+}
+table {
+    width: 700px;
+    margin: auto;
+    text-align: center;
+    border-bottom:3px solid #2ba89c;
+}
+th {
+    padding: 10px;
+    color: white;
+}
+tbody {
+    background-color: #eee;
+}
+td {
+    padding: 20px;
+   
+    width: fit-content;
+    position: relative;
+}
+button {
+    background-color: blue;
+    color: white;
+}
+.del {
+    background-color: red;
+    color: white;
+}
